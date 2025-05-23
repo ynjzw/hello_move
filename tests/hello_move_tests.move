@@ -6,7 +6,7 @@ use hello_move::hello_move;
 
 // const ENotImplemented: u64 = 0;
 
-// #[test]
+#[test]
 fun test_hello_move() {
     // pass
     assert!(hello_move::hello_move() == b"hello".to_string(),0);
